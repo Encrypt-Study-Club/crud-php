@@ -82,10 +82,6 @@
             $result = mysqli_query($mysqli, "insert into biodata values ('$stambuk','$nama','$email','$alamat')");
 
             // info
-            echo "<script>
-                swal('Mantap dijiwa!', 'Email berhasil dikirim!', 'success')
-                </script>";
-            echo "data berhasil di tambahkan";
             header("Location: biodata.php");
         }
     ?>
